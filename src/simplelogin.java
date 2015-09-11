@@ -11,6 +11,7 @@ public class simplelogin {
 		driver.get("http://www.facebook.com");
 		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("priyanka.sankepally@gmail.com");
 		driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("hfjhfjhgjfh");
+		driver.quit();
 		
 
 	}
